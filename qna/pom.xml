@@ -4,6 +4,14 @@
   <artifactId>qna</artifactId>
   <version>1.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>4.3.26.RELEASE</version>
+		</dependency>
+	</dependencies>
   
   <build>
   	<finalName>qna</finalName>
